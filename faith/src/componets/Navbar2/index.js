@@ -1,5 +1,5 @@
 import React from "react"
-// import { NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 import { Wrapper, Logo, Space, Navlink, Bar, FaithLink} from './Elements'
 
 function Navber2() {
@@ -10,9 +10,15 @@ function Navber2() {
             </FaithLink>
             <Logo>hello</Logo>
             <Space/>
-            <Navlink to="/" activeStyle>Home</Navlink>
-            <Navlink to="/" activeStyle>Prayer</Navlink>
-            <Navlink to="/" activeStyle> Video</Navlink>
+            <Navlink>
+                <Link
+                    to="/Home" activeStyle> Home 
+                </Link>
+            </Navlink>
+            <Navlink>
+                 prayer
+            </Navlink>
+            <Navlink activeStyle> videos</Navlink> 
             <Bar/>
         </Wrapper>
     )

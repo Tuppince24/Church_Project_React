@@ -1,17 +1,15 @@
-// import React, { Component } from "react";
-// import Bod from "../componets/bod/index"
+import React, { Component } from "react";
 
 
-// class Home extends Component {
-//     return(){
-//       return (
-//           <div>
-//               <Bod/>
-//               <p>hello world</p>
-//           </div>
+class Home extends Component {
+    return(){
+      return (
+          <div>
+              <p>hello world</p>
+          </div>
         
-//       );
-//     }
-//   }
+      );
+    }
+  }
 
-// export default Home;
+export default Home;

@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
-import Home from "./pages/home"
+import Home from "./pages/Home"
+import Prayer from "./pages/Prayer"
+import Live from "./pages/Live"
 import Navbar from "./componets/Navbar"
 import Navbar2 from "./componets/Navbar2"
 
@@ -17,12 +19,12 @@ class App extends Component {
           </Switch>
           <Switch>
             <Route exact path={["/prayer"]}>
-              {/* <Home/> */}
+              <Prayer/>
             </Route>
           </Switch>
           <Switch>
             <Route exact path={["/live"]}>
-              {/* <Home/> */}
+              <Live/> 
             </Route>
           </Switch>
         </Navbar>
