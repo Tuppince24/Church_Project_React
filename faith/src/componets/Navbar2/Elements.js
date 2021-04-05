@@ -20,7 +20,7 @@ export const Logo = styled.p`
     grid-area: Logo;
     color:white;
     `;
-export const Navlink = styled.p`
+export const Navlinkcontainer = styled.p`
     color: #fff;
     `;
 export const Bar = styled.p`
