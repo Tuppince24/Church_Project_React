@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^4.6.0",
+    "react-bootstrap": "^1.5.2",
     "react-icons": "^4.2.0",
     "styled-components": "^5.2.1"
   }

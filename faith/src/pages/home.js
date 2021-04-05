@@ -1,17 +1,10 @@
-// import React, { Component } from "react";
-// import Bod from "../componets/bod/index"
+import React from "react";
 
-
-// class Home extends Component {
-//     return(){
-//       return (
-//           <div>
-//               <Bod/>
-//               <p>hello world</p>
-//           </div>
-        
-//       );
-//     }
-//   }
-
-// export default Home;
+function Home(){
+    return(
+        <div>
+            <h1 style={{color: 'blue', zIndex:"999"}}>hello world!</h1>
+        </div>
+    )
+};
+export default Home;
